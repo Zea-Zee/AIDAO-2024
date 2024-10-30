@@ -10,7 +10,6 @@ def get_connectome(timeseries: np.ndarray,
 
         for i in conn:
             np.fill_diagonal(i, 0)
-
         conn = np.arctanh(conn)
 
     else:

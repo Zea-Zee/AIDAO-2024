@@ -1,1 +1,0 @@
-print("\n".join(map(str, range(100))))
